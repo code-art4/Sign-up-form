@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./vendor/font-awesome/css/font-awesome.min.css">
+    <title>Sign up form</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col bg-green">
+                <div class="info">
+                    <h1>Sign up</h1>
+                    <p>to use all features <br> of the application</p>
+                </div>
+
+
+                <div class="logo">
+                    <img src="./vendor/image/Logo.svg" alt="Logo">
+                </div>
+
+
+            </div>
+            <div class="col">
+                <form action="">
+                    <div class="input">
+                        <input type="text" name="uname" id="uname" autocomplete="off" required>
+                        <label for="uname">Username</label>
+                    </div>
+
+                    <div class="input">
+                        <input type="email" name="email" id="email" autocomplete="off" required>
+                        <label for="email">Email</label>
+                    </div>
+
+                    <div class="input">
+                        <input type="password" name="password" id="password" required>
+                        <label for="password">Password</label>
+
+                        <div class="validate">
+                            <i class="fa fa-times" aria-hidden="true"></i>
+                        </div>
+                    </div>
+
+                    <div class="input">
+                        <input type="password" name="samepassword" id="samepassword" required>
+                        <label for="samepassword">Repeat Password</label>
+
+                        <div class="validate">
+                            <i class="fa fa-times" aria-hidden="true"></i>
+                        </div>
+                    </div>
+
+                    <div class="input check">
+                        <input type="checkbox" name="terms" id="terms" class="checkbox">
+                        <label for="terms">
+                            By signing up, I agree with 
+                            <a href="">
+                                terms and conditions
+                            </a>
+                        </label>
+                    </div>
+
+                    <div class="button row">
+                        <button>Sign up</button>
+
+                        <button>Log in</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
