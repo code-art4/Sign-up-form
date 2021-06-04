@@ -135,7 +135,7 @@
         }
         
         .input input:valid~label {
-            opacity: 0;
+            opacity: 0
         }
         
         .input .validate {
