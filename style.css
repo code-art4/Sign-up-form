@@ -121,7 +121,7 @@
         }
         
         .input input:focus~label {
-            color: #eee;
+            color: #3cc295c9;
             font-size: .8em;
             transform: translateY(-10px);
             -webkit-transform: translateY(-10px);
@@ -132,6 +132,7 @@
         
         .input input:focus {
             border-color: #eee;
+            border-bottom: 1px solid #3cc295c9;
         }
         
         .input input:valid~label {
@@ -261,10 +262,10 @@
             }
             .col {
                 width: 100%;
-                height: 70vh;
+                height: 50vh;
             }
             .col.bg-green {
-                height: 25vh !important;
+                height: 30vh !important;
             }
             form {
                 width: 90%;
